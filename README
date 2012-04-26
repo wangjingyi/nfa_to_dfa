@@ -1,0 +1,7 @@
+This program convert nfa to dfa.
+
+Use dictionary to represent the conversion table.
+The tuple (state, symbol) as key
+The value is next state, which can be a letter/string or an array of letter/string
+
+(state, input_symbol) => next_state
